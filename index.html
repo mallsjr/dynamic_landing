@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!--Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
     <title>welcome</title>
-</head>
-<body>
+  </head>
+  <body>
     <!--The values for time and greeting can be removed because main.js are providing-->
     <time id="time"><!--12:17:04 PM--></time>
     <h1>
-        <span id="greeting"><!--Good Afternoon--></span>
-        <span id="name" contenteditable="true"><!--Mike--></span>
+      <span id="greeting"><!--Good Afternoon--></span>
+      <span id="name" contenteditable="true"><!--Mike--></span>
     </h1>
 
     <h2>What is your focus for today</h2>
     <h2 id="focus" contenteditable="true"><!--Make cool videos--></h2>
 
-    <button class="button button4" onclick="clear()">Clear Form</button>
+    <button id="btn" class="button button4">Clear Form</button>
 
     <script src="js/main.js"></script>
-</body>
+  </body>
 </html>
